@@ -12,3 +12,11 @@ public class Main {
         penguin.swim();
     }
 }
+/*
+SOLID -
+S - Single responsibility
+O - Open for extension closed for modification
+L - Liskov's substitution - no special case when subtyping(Parent should be substitutable for child)
+I - Interface segregation - lean interfaces
+D - Dependency Inversion - high level modules should not depend on low level modules
+* */

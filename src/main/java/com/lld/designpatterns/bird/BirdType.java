@@ -1,9 +1,10 @@
-package com.lld.designpatterns.srpandocp;
+package com.lld.designpatterns.bird;
 
 public enum BirdType {
     EAGLE,
     PEACOCK,
     SPARROW,
     DOVE,
-    PARROT
+    PARROT,
+    PENGUIN
 }

@@ -1,4 +1,4 @@
-package com.lld.designpatterns.srpandocp;
+package com.lld.designpatterns.bird;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +14,6 @@ public abstract class Bird {
     private BirdType birdType;
     private Color color;
 
-    public abstract void fly();
     public void eat() {}
     public void sleep() {}
 }

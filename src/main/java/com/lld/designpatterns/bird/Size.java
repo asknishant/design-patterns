@@ -1,4 +1,4 @@
-package com.lld.designpatterns.srpandocp;
+package com.lld.designpatterns.bird;
 
 public enum Size {
     SMALL,

@@ -1,8 +1,8 @@
-package com.lld.designpatterns.srpandocp;
+package com.lld.designpatterns.bird;
 
 import java.awt.*;
 
-public class Sparrow extends Bird {
+public class Sparrow extends Bird implements Flyable{
     public Sparrow(String name, Double weight, Size size, BirdType birdType, Color color) {
         super(name, weight, size, birdType, color);
     }

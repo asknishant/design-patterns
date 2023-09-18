@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.util.AssertionErrors.assertNotNull;
 
 
-public class BackgroundObjectTest {
+public class PrototypeTest {
 
     @Test
     public void testClone() {

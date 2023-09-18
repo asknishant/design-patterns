@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.springframework.test.util.AssertionErrors.assertEquals;
 
 
-public class DatabaseTest {
+public class BuilderTest {
     @Test
     public void testDatabaseBuilder() {
         Database database = Database.builder()

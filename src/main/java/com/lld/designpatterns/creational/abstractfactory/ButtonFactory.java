@@ -1,4 +1,4 @@
-package com.lld.designpatterns.creational.factory;
+package com.lld.designpatterns.creational.abstractfactory;
 
 public class ButtonFactory {
     // create a static factory method.
@@ -6,8 +6,8 @@ public class ButtonFactory {
     public static Button createButton(ScreenSize screenSize, Double border, Double radius, Double length) {
         switch(screenSize) {
             case PHONE:
-            case TABLET: return new RoundButton(border, radius);
-            case DESKTOP: return new SquareButton(border, radius);
+            case TABLET: return new DarkButton(border, radius);
+            case DESKTOP: return new LightButton(border, radius, radius);
         }
         throw new IllegalArgumentException("Invalid type" + screenSize);
     }

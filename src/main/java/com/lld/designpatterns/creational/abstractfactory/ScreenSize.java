@@ -1,4 +1,4 @@
-package com.lld.designpatterns.creational.factory;
+package com.lld.designpatterns.creational.abstractfactory;
 
 public enum ScreenSize {
     DESKTOP,

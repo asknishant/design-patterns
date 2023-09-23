@@ -8,10 +8,10 @@ import static org.springframework.test.util.AssertionErrors.assertTrue;
 public class FactoryTest {
 
      /*RoundBtn roundBtn = new RoundBtn(10.0, 1.0);
-     SquareBtn squaredBtn = new SquareBtn(10.0, 1.0);
+       SquareBtn squaredBtn = new SquareBtn(10.0, 1.0);
        Now changing RoundBtn to RoundButton will cause error because of tight coupling.
        so how do we achieve this? we achieve this through introducing an abstract class (not interface here) because interfaces should not have attributes.Also both
-       have common behavior. If they had differnt behavior we would have created separate interfaces.
+       the buttons have common behavior. If they had differnt behavior we would have created separate interfaces.
      */
     @Test
     public void testRoundButton() {
@@ -35,5 +35,4 @@ public class FactoryTest {
 * Downside of factory
 * 1. Parameter explosion
 * 2. SRP + OCP violation in createButton method
-* 3.
 * */

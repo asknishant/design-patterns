@@ -7,9 +7,7 @@ import com.lld.designpatterns.structural.adapter.RazorPayAdapter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-
-public class PaymentProviderTest {
+public class AdapterTest {
     // just change the adapter to your need. Its just acts like a bridge that supports with all the socket.
     PaymentProvider adapter = new RazorPayAdapter();
 //  PaymentProvider adapter = new RazorPayAdapter();// this works as well

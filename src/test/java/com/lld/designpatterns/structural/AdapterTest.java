@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class AdapterTest {
     // just change the adapter to your need. Its just acts like a bridge that supports with all the socket.
     PaymentProvider adapter = new RazorPayAdapter();
-//  PaymentProvider adapter = new RazorPayAdapter();// this works as well
+//  PaymentProvider adapter = new PayUAdapter();// this works as well
     @Test
     void testPayMethod() {
         // adapter.createPayment(1L, "Walter", "walter@gmail.com", 100.0); instead use builder
